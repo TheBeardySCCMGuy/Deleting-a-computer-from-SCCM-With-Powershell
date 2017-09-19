@@ -1,0 +1,3 @@
+AdminConsole.MSI TARGETDIR="%programfiles(x86)%\Microsoft Configuration Console" ENABLESQM=0 DEFAULTSITESERVERNAME=FQDN.DOMAIN.COM /q /l*v c:\TEMP\SCCM1610Console.log
+
+ConfigMgr2012PowerShellCmdlets.MSI /qn /l*v c:\TEMP\ConfigMgr2012PowerShellCmdlets.log
